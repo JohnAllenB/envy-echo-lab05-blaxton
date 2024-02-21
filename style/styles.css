@@ -43,11 +43,6 @@ body {
     text-decoration: none;
   }
   
-  .nav-toggle-label {
-    cursor: pointer;
-    display: block;
-  }
-  
   .hamburger {
     display: block;
     width: 25px;
@@ -55,42 +50,6 @@ body {
     background-color: #fff;
     position: relative;
     transition: background-color 0.3s ease;
-  }
-  
-  .hamburger:before,
-  .hamburger:after {
-    content: '';
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    position: absolute;
-    transition: transform 0.3s ease;
-  }
-  
-  .hamburger:before {
-    top: -8px;
-  }
-  
-  .hamburger:after {
-    bottom: -8px;
-  }
-  
-  #nav-toggle:checked ~ .menu {
-    display: block;
-  }
-  
-  #nav-toggle:checked + .nav-toggle-label .hamburger {
-    background-color: transparent;
-  }
-  
-  #nav-toggle:checked + .nav-toggle-label .hamburger:before {
-    transform: rotate(45deg);
-    top: 0;
-  }
-  
-  #nav-toggle:checked + .nav-toggle-label .hamburger:after {
-    transform: rotate(-45deg);
-    bottom: 0;
   }
   
   .content {
