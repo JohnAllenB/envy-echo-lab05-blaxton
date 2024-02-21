@@ -9,25 +9,33 @@
 <body>
   <header class="header">
     <div class="container">
-      <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox">
-      <label for="nav-toggle" class="nav-toggle-label">
+      <div class="nav-toggle-label" onclick="toggleMenu()">
         <span class="hamburger"></span>
-      </label>
-      <nav class="menu">
+      </div>
+      <nav class="menu" id="menu">
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="https://github.com/JohnAllenB/crispy-charlie-lab03-blaxton" target="_blank">Charlie Repo</a></li>
+          <li><a href="https://github.com/JohnAllenB/decatur-delta-lab04-blaxton" target="_blank">Delta Repo</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <div class="content">
-    <h2>Welcome to Echo!</h2>
-    <p>This page is a hub to three games I have created through this class.</p>
+    <h2 class="headerTwo">Welcome to Echo!</h2>
+    <p class="paraCenter">This page is a hub to two different games I have created through this class. 
+    <br> You can find the repos in the drop down menu. To play the games please 
+    <br> refer to the links below.</p>
   </div>
 
-</body>
-</html>
+  <div class="container">
+    <div class="card">
+      <h2>Charlie Game</h2>
+      <a href="https://johnallenb.github.io/crispy-charlie-lab03-blaxton/" target="_blank">So Much Wow</a>
+    </div>
+    <div class="card">
+      <h2>Delta Game</h2>
+      <a href="https://johnallenb.github.io/decatur-delta-lab04-blaxton/" target="_blank">Name Game</a>
+    </div>
+  </div>
